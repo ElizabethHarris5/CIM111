@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display|Titillium+Web&display=swap');
+body{background-color: blue;}
+
+section{background-color: pink;}
+
+h1{
+color: white;
+
+font-size: 150px;
+font-family: 'Amatic SC', cursive;
+}
+
+h3{
+color: black;
+
+font-size:20px;
+}
+
+h2{
+  color: black;
+
+  font-size: 30px;
+}
+
+h4{
+color: black;
+
+font-size: 30px;
+}
+
+li{
+font-size: 20px;
+
+list-style: circle;
+}
+
+#centerName{
+text-align: center;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+a{
+color: orange;
+text-decoration: none;
+}
+
+a:visited{
+  color: orange;
+}
+
+a:hover{
+  background-color: pink;
+  font-style: italic;
+}
+P{
+  font-family: 'Playfair Display', serif;
+}
+
+address{
+  font-family: 'Playfair Display', serif;
+}
+
+#dog{
+  text-align: right;
+  color: pink;
+  font-family: 'Playfair Display', serif;
+}
+
+#yo{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px
+}
+
+#sup{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px
+}
+
+#nice{
+  font-size: 30px
+  color: white
+  text-align: right;
+}
+
+#ultra {
+  text-align: right;
+}
+
+.exampleText {
+writing-mode: vertical-rl;
+background-color: pink;
+block-size: 20px;
+font-family: 'Indie Flower', cursive;
+}
