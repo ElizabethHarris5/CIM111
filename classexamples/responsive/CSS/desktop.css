@@ -1,0 +1,45 @@
+header{
+background-color: green;
+width: 920px;
+height: 100px;
+padding: 20px 20px 20px 20px;
+border-width: 0px 0px 5px 0px;
+border-color: black;
+border-style: solid;
+
+margin: 10px auto 30px auto;
+margin: 0 auto;
+margin-top: -10px;
+
+}
+
+main{
+background-color: pink;
+width: 920px;
+/* height: 100px; */
+height: auto; /*height auto automatically adjusts the height of your container */
+padding: 20px; /* add inner spacing 20px top, right, bottom, and left */
+padding-top: 20px;
+padding-right:20px;
+padding-bottom: 20px;
+padding-left: 20px;
+
+border-width: 5px;
+border-style: dashed;
+border-color: rgb(0,127,0);
+
+/* Margin adjusts spacimg around container, setting left and right to auto, centers container */
+margin-top: 10px;
+margin-right: auto;
+margin-bottom: 20px;
+margin-left: auto;
+}
+
+footer{
+background-color: green;
+width: 960px;
+height: 100px;
+
+margin: 0 auto;
+
+}

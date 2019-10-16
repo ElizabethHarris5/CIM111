@@ -1,0 +1,87 @@
+@import "desktop.css";
+
+/* body{
+  background-color: blue;
+} */
+
+main{
+  width: 380px;
+}
+
+nav{
+  height: auto;
+}
+
+#grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7{
+  width: 380px;
+  height: auto;
+
+  display: block;
+}
+
+#grid3 img, #grid2 img, #grid4 img, #grid1 img, #grid5 img, #grid6 img, #grid7 img{
+  width: 380px;
+  /* align-items: center; */
+}
+
+#grid4 p{
+  width: 380px;
+}
+
+#col2 p{
+  width: 350px;
+  height: auto;
+
+}
+
+.favproducts{
+  width: 380px;
+  height: auto;
+  display: block;
+
+
+}
+
+#grid7 p{
+  width: 360px;
+  height: auto;
+}
+
+
+
+
+/* header{
+  width: 380px;
+}
+
+ main{
+  width: 380px;
+  height:auto;
+}
+
+
+
+footer{
+  width: 380px;
+  height: auto;
+} */
+
+/* nav ul li{
+  display: block;
+  text-align: center;
+}
+
+#grid1{
+  width: 380px;
+  display: block;
+}
+
+#grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7 {
+  width: 380px;
+  display: block;
+}
+
+#grid3 img, #grid2 img, #grid4 img, #grid1 img, #grid5 img, #grid6 img, #grid7 img{
+  width: 380px;
+  align-items: center;
+} */

@@ -1,0 +1,365 @@
+header{
+  background-color: #eee;
+  width: auto;
+  /* height: 100px; */
+  height: auto;
+  padding: 20px 20px 20px 20px; /* top right bottom left */
+
+  border-width: 0px 0px 0px 0px;/* top right bottom left */
+  border-color: white;
+  border-style: solid;
+
+  margin: 10px auto 10px auto; /* top right bottom left */
+  margin: 0 auto; /* top and bottom, right and left */
+  margin-top: 5px;
+
+}
+main{
+
+  width: auto; /* width adjusted for padding and border*/
+  /* height: 100px; */
+  height: auto; /*height auto automatically adjusts the height of your container based on content */
+  padding: 20px; /* add inner spacing 20px top, right, bottom, left */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  border-width: 5px;
+  border-style: none;
+  border-color: white;
+
+  /* Margin adjusts spacing around container, setting left and right to auto, centers container, margin auto only works if you have a width dimension */
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+}
+
+footer{
+  background-color: #eee;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Old Standard TT", serif;
+  width: auto;
+  height: auto;
+  border-width: 5px 5px 5px 5px;
+  border-color: pink;
+  border-style: dashed;
+  padding-top: 20px;
+  /* height: auto; if no content is in container, the box will collapse on itself, or disappear */
+
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin-left: 5px;
+}
+
+nav ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px;
+text-align: center;
+}
+
+nav ul li a {
+display: block;
+text-decoration: none;
+font-size: 20px;
+font-family: "Old Standard TT", serif;
+color: #1e1e1e;
+padding: 0 100px;
+}
+
+nav ul li a:hover {
+color: pink;
+}
+
+
+#grid1{
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 400px 400px 500px;
+  grid-column-gap: 20px;
+
+  background-color: #eee;
+
+  padding: 20px;
+
+}
+
+/* #grid1 img{
+  width: 266px;
+} */
+
+#grid1Image{
+  width: 400px;
+}
+
+#grid1Image2{
+  width: 300px;
+}
+
+
+#grid2{
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 370px 370px;
+  grid-column-gap: 40px;
+}
+
+
+#grid2 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+#col2{
+margin-top: 40px;
+
+}
+
+
+#grid2 h1{
+
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Old Standard TT", serif;
+}
+
+#grid2 p{
+  width: 800px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Old Standard TT", serif;
+}
+
+#grid3{
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-column-gap: 110px;
+
+}
+
+#grid3 img {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+
+
+#grid4 {
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 200px 580px;
+  grid-column-gap: 20px;
+  background-color: #fff;
+  padding: 5px;
+  border-width: 5px 5px 5px 5px;
+  border-color: pink;
+  border-style: solid;
+  padding-top: 20px;
+  font-family: "Old Standard TT", serif;
+}
+#grid4 h2{
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: "Old Standard TT", serif;
+  font-size: 40px;
+}
+
+#grid4 p{
+  width: 900px;
+  height: auto;
+}
+
+#grid4 img{
+  width: 255px;
+  margin: 0 auto;
+  display: block;
+  padding-left: 400px;
+}
+
+#grid5 {
+  width: auto;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 600px 300px;
+  grid-column-gap: 20px;
+  background-color: white;
+  border-width: 5px 5px 5px 5px;
+  border-color: pink;
+  border-style: solid;
+  padding-top: 20px;
+  font-family: "Old Standard TT", serif;
+  text-align: right;
+}
+
+#grid5Image1 {
+  width: 300px;
+  padding-right: 280px;
+
+}
+
+#grid5Image2 {
+  width: 300px;
+}
+
+#grid5 p{
+
+text-align: left;
+padding-left: 20px;
+}
+
+.gloss p {
+  width: 600px;
+  height: auto;
+  text-align: left;
+  padding-right: 200px;
+}
+
+#grid6 {
+  width: auto;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 260px 260px 260px 260px;
+  grid-column-gap: 25px;
+  list-style: none;
+}
+
+#grid6 img {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 20px;
+}
+
+
+#grid7 {
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 200px 580px;
+  grid-column-gap: 20px;
+  background-color: #eee;
+  padding: 5px;
+  border-width: 5px 5px 5px 5px;
+  border-color: pink;
+  border-style: solid;
+}
+
+#grid7 h2{
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: "Old Standard TT", serif;
+  font-size: 27px;
+}
+
+#grid7 p{
+  width: 900px;
+  height: auto;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+h1{
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: "Old Standard TT", serif;
+}
+
+.grey{
+  background-color: #eee;
+
+}
+
+.favproducts{
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 200px 580px;
+  grid-column-gap: 20px;
+  background-color: #fff;
+  padding: 5px;
+  border-width: 5px 5px 5px 5px;
+  border-color: pink;
+  border-style: solid;
+}
+
+.favproducts h3{
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Old Standard TT", serif;
+  margin-left: 20px;
+
+}
+
+.favproducts p{
+  font-size: 20px;
+
+  /* width: 900px;
+  height: auto;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 150px; */
+}
+
+#col3{
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#col4{
+  width: 200px;
+  height: auto;
+  margin-left:40px;
+  display: grid;
+  grid-column-gap: 25px;
+  font-size: 20px;
+}
