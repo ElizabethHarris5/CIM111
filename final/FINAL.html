@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GRAPHIC DESIGN</title>
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="only screen and (min-width: 600px)">
+
+      <!-- max-width =>if your browser window is less than 600px load mobile.css -->
+      <link rel="stylesheet" href="css/final1.css" media="only screen and (min-width: 600px)">
+      <link rel="stylesheet" href="css/mobileFINAL.css" media="only screen and (max-width: 600px)">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen">
+
+    </style>
+  </head>
+
+  <body>
+
+      <script src="js/jquery-1.5.min.js"></script>
+
+<h1>ELIZABETH HARRIS</h1>
+
+<nav>
+  <ul>
+  <li><a href="#grid1"> ABOUT</a></li>
+  <li><a href="#grid2"> MAGAZINE</a></li>
+  <li><a href="#grid3"> PORTRAIT</a></li>
+  <li><a href="#grid5"> ALBUM</a></li>
+  <li><a href="#grid6"> MOCK UPS</a></li>
+  <li><a href="#grid7"> RANDOM WORK</a></li>
+  </ul>
+
+</nav>
+
+    <!-- <header> -->
+      <section id="grid1">
+              <section>
+                <h2><em>About Lizzy.</em></h2>
+                <br>
+                <p> I am a 22 year old student at the University of Miami. I am a senior majoring in Communications and double minoring in Advertising and Public Relations. My major and minors have helped me acquire the necessary skills to develop and expand my knowledge of visual and graphic design. I have found my passion and continue to learn and grow everyday as a young designer! <br>
+                Other tidbits about  me: I am a middle child; I have two awesome brothers! I am extremely passionate about travel and I am a real adventure seeker! I have been to 12 countries and plan on continuing my travels for as long as I possibility can. I am an extraverted personality type and love nothing more then being with the people I love (friedns and family). I am also a bit ADHD. I cannot sit still and neither can my mind; my creative juices are always flowing. An active life is a healthy life, and I think it is important to do as much as you can while you have the chance.
+ </p>
+              </section>
+<img id="grid1Image" src="pictures/snow.png">
+<img id="grid1Image2" src="pictures/upsidedown.jpg">
+</section>
+      <!-- </header> -->
+    <h1>MAGAZINE</h1>
+      <section id="grid2">
+
+
+          <img src="pictures/naganospread.png">
+          <img src="pictures/greecespread.png">
+          <img src="pictures/australiaspread.png">
+      </section>
+
+
+
+    <main>
+
+   <section>
+     <section id="hey">
+      <h2>PORTRAIT</h2>
+      <p> For this assignment, we had to make a vector portrait of anyone we wanted. I chose to vecotrize a portrait of a model. </p>
+    </section>
+
+    <section id="grid4">
+      <img src="pictures/lorena.png">
+      <img src="pictures/lorena1.JPG">
+
+    </section>
+    <section id="hey">
+      <h2>ALBUM COVERS</h2>
+      <p> For this project, we had to redesign an artist's album cover and rebrand their look. I had a lot of fun with this assignment because there was so much room for creativity and freedom to make it my own.</p>
+
+    </section>
+
+      <section id="grid3">
+
+        <img src="pictures/tshirtidea.jpg">
+        <img src="pictures/ROSESPOSTER3-copy.jpg">
+
+        <!-- "i need so much help -->
+      </section>
+
+      <section>
+          <h3>MOCK UPS</h3>
+
+          <p>Mock ups are really important when trying to conceptualize your work. They give you a realistic view of what your designs would look like advertised on a pluthera of different objects and platforms. <br> <br> Below are some of the mock ups I have done for my designs.</p>
+        </section>
+<section id="hello">
+        <img src="pictures/sleepingwrosespostermock.jpg">
+        <img src="pictures/phonecase1.jpg">
+        <img src="pictures/busstopbillboard1.jpg">
+
+</section>
+
+
+<section id="grid7">
+          <h2>Environmentally Friendly!</h2>
+          <p>In today's fast past world, the topic of environmental awareness and consciousness seems hotter than ever. It is crucial for us as individuals to contribute to our planet and help revert the consequences that we have had to suffer because of others' actions. Glossier capitalizes on eco-friendliness, and strives to create a balance between nature and beauty. Glossier makes a conscious effort to be as ecofriendly as possible. This is why it is super important for glossier to use all natural ingredients in their products as well as being animal-cruelty free. Glossier is also sulfate free, parabin free, hypoallergenic, (sometimes) fragrance free, and vegan company. The products are all dermatologist (and sometimes gynocologist) tested to ensure that the safety of the products live up to the highest standards.</p>
+        </section>
+
+
+<section id="grid5">
+
+</section>
+
+
+
+    </main>
+
+    <footer>
+      <h2>Hope You Enjoyed!</h2>
+
+    </footer>
+    <!--Remote version-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jQuery.mousetip.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('li').mousetip('.tip');
+
+        //All jquery code should be placed below, all jquery inside of document ready function
+        $("body").css("background-color", "lightblue");
+        $("h1").css("color", "black");
+        $("h1").css("font-size", "50px");
+        $("h2").css("background-color", "white");
+        $("footer").css("font-size", "30px");
+        $("footer").css("text-align", "center");
+        $("header").css("text-align", "center");
+        $("#textChange").css("background-color", "pink");
+
+
+        $("#textChange").click(function(){
+          $("body").css("background-color", "white");
+          $("h1").css("color", "lightblue");
+        }); //End of text change click
+
+        $("#info").mouseenter(function(){
+          $("#recepticle").html("<em>Tokyo is one of the most unique places I've ever been, and it’s an absolute must-see for any travel lover. Soak in the traditional Japanese culture, learn about modern life in the city, and become a real-life cartoon character! The city is home to a pluthera of cool, diverse and delicious restaurants. There’s no place like Tokyo… so here’s my ultimate Tokyo travel guide! ");
+          $("#info").css("background-color", "white");
+      });
+
+        $("#info").mouseleave(function(){
+            $("#recepticle").html("");
+            $("#info").css("background-color", "transparent");
+        });
+
+
+        $("#image1").click(function(){
+            $("#imageRecepticle").html('<img src="pics/mariokart.jpg" width=775px>');
+        });
+
+        $("#image2").click(function(){
+            $("#imageRecepticle").html('<img src="pics/letters.jpeg" width=775>');
+        });
+
+        $("#image3").click(function(){
+            $("#imageRecepticle").html('<img src="pics/mariokart1.jpeg" width=775>');
+        });
+
+        $("#image4").click(function(){
+            $("#imageRecepticle").html('<img src="pics/market.jpeg" width=775>');
+        });
+
+        $("#toggle").click(function(){
+            $("#mainimage").toggle(1000);
+        }); //Add a number to add effect. The higher the number the longer it takes
+
+
+
+    });// End of document ready
+
+    </script>
+
+
+
+  </body>
+</html>
