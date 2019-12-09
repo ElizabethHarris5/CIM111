@@ -43,11 +43,8 @@ footer{
   font-size: 20px;
   font-family: "Old Standard TT", serif;
   width: auto;
-  height: auto;
-  border-width: 5px 5px 5px 5px;
-  border-color: pink;
-  border-style: dashed;
-  padding-top: 20px;
+  height: 1;
+
   /* height: auto; if no content is in container, the box will collapse on itself, or disappear */
 
   margin: 0 auto;
@@ -205,6 +202,29 @@ margin: 0 auto;
 display: block;
 }
 
+#grid7 {
+width: auto;
+height: auto;
+margin: 20px auto;
+display: grid;
+grid-template-rows: 300px;
+grid-template-columns: 270px 270px 270px;
+grid-column-gap: 40px;
+}
+
+
+#grid7 img{
+width: 300px;
+margin: 0 auto;
+display: block;
+}
+
+
+
+
+
+
+
 #grid4 {
   width: auto;
   height: auto;
@@ -239,38 +259,7 @@ display: block;
 
 }
 
-#grid5 {
-  width: auto;
-  height: 600px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: 200px;
-  grid-template-columns: 600px 300px;
-  grid-column-gap: 20px;
-  background-color: white;
-  border-width: 5px 5px 5px 5px;
-  border-color: pink;
-  border-style: solid;
-  padding-top: 20px;
-  font-family: "Old Standard TT", serif;
-  text-align: right;
-}
 
-#grid5Image1 {
-  width: 300px;
-  padding-right: 280px;
-
-}
-
-#grid5Image2 {
-  width: 300px;
-}
-
-#grid5 p{
-
-text-align: left;
-padding-left: 20px;
-}
 
 .gloss p {
   width: 600px;
@@ -298,37 +287,7 @@ padding-left: 20px;
 }
 
 
-#grid7 {
-  width: auto;
-  height: auto;
-  margin: 20px auto;
-  display: grid;
-  grid-template-rows: 200px;
-  grid-template-columns: 200px 580px;
-  grid-column-gap: 20px;
-  background-color: #eee;
-  padding: 5px;
-  border-width: 5px 5px 5px 5px;
-  border-color: pink;
-  border-style: solid;
-}
 
-#grid7 h2{
-  width: auto;
-  height: auto;
-  text-align: center;
-  font-family: "Old Standard TT", serif;
-  font-size: 27px;
-}
-
-#grid7 p{
-  width: 900px;
-  height: auto;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-left: 20px;
-
-}
 
 h1{
   width: auto;

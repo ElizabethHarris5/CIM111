@@ -1,4 +1,4 @@
-@import "desktop.css";
+@import "final1.css";
 
 /* body{
   background-color: blue;
@@ -10,6 +10,10 @@ main{
 
 nav{
   height: auto;
+}
+
+nav ul li{
+  display: block;
 }
 
 #grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7{
