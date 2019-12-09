@@ -17,14 +17,14 @@ nav ul li{
 }
 
 #grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7{
-  width: 380px;
+  width: 300px;
   height: auto;
 
   display: block;
 }
 
 #grid3 img, #grid2 img, #grid4 img, #grid1 img, #grid5 img, #grid6 img, #grid7 img{
-  width: 380px;
+  width: 300px;
   /* align-items: center; */
 }
 
@@ -33,13 +33,13 @@ nav ul li{
 }
 
 #col2 p{
-  width: 350px;
+  width: 300px;
   height: auto;
 
 }
 
 .favproducts{
-  width: 380px;
+  width: 300px;
   height: auto;
   display: block;
 
@@ -47,7 +47,7 @@ nav ul li{
 }
 
 #grid7 p{
-  width: 360px;
+  width: 300px;
   height: auto;
 }
 
